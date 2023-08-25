@@ -360,7 +360,7 @@ input:checked ~ label::before {
   resize: none;
 }
 .contact form .btn {
-  margin: 2rem;
+  margin: 2rem 0 3rem;
   cursor: pointer;
 }
 .footer {
@@ -457,7 +457,10 @@ input:checked ~ label::before {
     grid-template-columns: repeat(2, 1fr);
   }
   .widget img {
-    width: 25%;
+    width: 8vw;
+  }
+  .widget {
+    bottom: 8vh;
   }
 }
 @media (max-width: 617px) {
