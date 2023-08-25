@@ -72,7 +72,7 @@ section {
   border-radius: 4rem;
   position: fixed;
   display: flex;
-  right: 10%;
+  right: 8%;
   justify-content: center;
   bottom: 10vh;
   box-shadow: none;
@@ -83,6 +83,7 @@ section {
   font-weight: 600;
   transition: 0.5s ease;
 }
+
 .widget:hover {
   box-shadow: 0 0 1rem var(--main-color);
 }
@@ -454,6 +455,9 @@ input:checked ~ label::before {
   }
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .widget img {
+    width: 25%;
   }
 }
 @media (max-width: 617px) {
